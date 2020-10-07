@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed:wght@500&display=swap');
+.cardDayContainer {
+  background-color: rgba(250, 250, 250, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: 100%;
+  padding: 1vw;
+  -webkit-box-shadow: 10px 10px 28px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 28px 2px rgba(0, 0, 0, 0.75);
+  font-family: Oswald;
+}
+.cityName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  height: 4vw;
+  width: 100%;
+  margin-bottom: 1vw;
+}
+.dateContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1vw;
+}
+.temperatura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  height: 6vw;
+  width: 100%;
+  margin-bottom: 1vw;
+}
+.division {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  width: 100%;
+  margin-bottom: 1vw;
+}
+
+.condition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2vw;
+  height: 2vw;
+  width: 100%;
+  margin-bottom: 1vw;
+}
+.minMaxTempCardDay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vw;
+  width: 100%;
+}
+.cardForecastContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 1vw;
+}

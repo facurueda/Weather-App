@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
+.inputSearch {
+  border: none;
+  outline: none;
+  border-radius: 1vw;
+  padding-left: 1vw;
+  width: 20vw;
+  height: 2vw;
+  -webkit-box-shadow: 10px 10px 28px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 28px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 28px 2px rgba(0, 0, 0, 0.75);
+  font-family: Sansita Swashed;
+}

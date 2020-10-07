@@ -1,0 +1,20 @@
+.forestCardContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 1vw;
+        width: 100%;
+        height: 100%;
+}
+.minMaxTemp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .9vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textDay{
+        margin-top: .5vw;
+        font-size: 1vw;
+}
