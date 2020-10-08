@@ -24,13 +24,13 @@ const ForecastCard = ({ dayInfo }) => {
         const getDay = (y, m, d) => {
                 var days = ['Sunday', 'Monday', 'Tuesday',
                         'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-                var d = new Date(y, --m, d);
-                return d && days[d.getDay()];
+                var a = new Date(y, --m, d);
+                return a && days[a.getDay()];
         }
 
         return (
-                <div className='forestCardContainer'>
-                        <img src={`http://${IMG_DAY}`} />
+                <div className='forecastCardContainer'>
+                        <img src={`http://${IMG_DAY}`} alt='img' className='imageForecastCard'/>
                         <div className="minMaxTemp">{MIN_TEMP}°C / {MAX_TEMP}°C</div>
                         { DAY_NUMBER == THIS_DAY ?
                                 (

@@ -17,7 +17,6 @@ const Search = ({onSearch}) => {
                                 value={city}
                                 onChange={e => setCity(e.target.value)}
                         />
-                        {/* <input className='searchButton' type="submit" value="Agregar" /> */}
                 </form>
         )
 }

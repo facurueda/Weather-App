@@ -1,7 +1,6 @@
 import React from 'react'
 import ForecastCard from '../forecastCard/ForecastCard';
 import './TodayCard.css'
-import { Textfit } from 'react-textfit';
 
 const TodayCard = ({ actualTemp, actualCity, forecastTemp }) => {
 
@@ -18,10 +17,6 @@ const TodayCard = ({ actualTemp, actualCity, forecastTemp }) => {
         const YEAR = new Date().getFullYear();
 
         const TEXT_CONDITION = Object.values(actualTemp.condition);
-
-        const MIN_TEMP = forecastTemp[0].day.mintemp_c;
-
-        const MAX_TEMP = forecastTemp[0].day.maxtemp_c;
 
         return (
                 <div>

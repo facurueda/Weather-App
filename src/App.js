@@ -12,7 +12,7 @@ const App = () => {
   const onSearch = (city) => {
     axios({
       method: "GET",
-      url: `http://api.weatherapi.com/v1/forecast.json?key=6bc7f8e29de0427d829180352200710&q=${city}&days=10`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=6bc7f8e29de0427d829180352200710&q=${city}&days=10`,
     })
       .then((response) => {
         setActualTemp(response.data.current);
